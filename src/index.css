@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #868e96;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0px 50px;
+  color: #868e96;
+
+}
+
+.listtext{
+  font-weight: bold;
+}
+
+tbody tr td{
+ border-bottom: none !important;
+ color: #868e96;
+}
+
+thead tr th{
+  border-bottom: none !important;
+  color: #868e96;
+}
+
+thead{
+  background-color: none !important;
+}
+
+.apexcharts-title-text{
+  display: none !important;
+}
+
+.tooltipButton{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.btn{
+  width: 100px;
+  margin: 30px auto;
+  padding: 9px;
+  border: none;
+  border-radius: 20px;
+  color: white !important;
+}
+
+.buttonsell{
+  background-color: red;
+  color: white;
+}
+
+.buttonbuy{
+  background-color: green;
+  color: white;
+}
+
+.mantine-Col-root {
+  margin-bottom: 23px;
+}
+
+.mantine-InputWrapper-label {
+  color: white;
+}
+
+.apexcharts-xaxis-label {
+  color: white !important;
+}
+
+.apexcharts-xaxis-label tspan{
+  color: white !important;
+}
+
+input{
+  background-color: #3c3c5c !important;
+  border: 1px solid gray;
+}
